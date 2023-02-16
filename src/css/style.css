@@ -95,14 +95,14 @@ h2.title{
     padding: 85px 0 75px 0;
 }
 
-.waiting_header{
+.waiting_header, .finish_header{
     font-weight: 400;
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
     color: #252525; 
 }
-.waiting_divider{
+.waiting_divider, .finish_divider{
     margin: 0 auto;
     margin-top: 18px;
     width: 220px;
@@ -161,4 +161,37 @@ h2.title{
     top: -47px;
     left: -240px;
     z-index: -1;
+}
+.finish{
+    min-height: 450px;
+    background: url('../img/bg/second_bg.jpg') center center/cover no-repeat;
+    padding: 86px 0 68px 0;
+}
+.finish_header{
+    color: #EFEFEF;
+}
+.finish_wrapper{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.finish_item{
+    width: 226px;
+}
+.finish_round{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 118px;
+    height: 118px;
+    background-color: #B4E2FF;
+    border-radius:50%;
+}
+.finish_text{
+    margin-top: 24px;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    color: #efefef;
 }
