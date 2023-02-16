@@ -61,7 +61,7 @@ h2.title{
     font-weight: 700;
     color: #F9BF3B;
 }
-.promo_btn{
+.promo_btn, .gift_btn{
     display: block;
     font-family: 'RobotoCondensed';
     font-size: 21px;
@@ -194,4 +194,19 @@ h2.title{
     font-size: 17px;
     text-align: center;
     color: #efefef;
+}
+.gift{
+    min-height: 630px;
+    padding: 85px 0 88px 0;
+}
+.gift_img{
+    display: block;
+    margin: 0 auto;
+}
+.gift_text{
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #252525;
 }
