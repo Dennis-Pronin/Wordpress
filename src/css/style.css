@@ -198,6 +198,7 @@ h2.title{
 .gift{
     min-height: 630px;
     padding: 85px 0 88px 0;
+    background-color:#EFEFEF;
 }
 .gift_img{
     display: block;
@@ -209,4 +210,35 @@ h2.title{
     font-size: 30px;
     text-align: center;
     color: #252525;
+}
+.webinar{
+    min-width: 512px;
+    padding: 81px 0 50px 0;
+}
+.webinar_img{
+    display: block;
+    margin: 0 auto;
+}
+.webinar_header{
+    margin-top: 36px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+.webinar_subheader{
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+.webinar_text{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
 }
